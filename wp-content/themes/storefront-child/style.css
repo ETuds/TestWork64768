@@ -1,0 +1,50 @@
+/*!
+Theme Name:   Storefront Child Theme
+Description:  Storefront Child Theme
+Version:      1.0.0
+Author:       Errol Mark Tudio
+Template:     storefront
+*/
+
+:root {
+    --off-white: #FDFDFD;
+    --primary-head: #181C14;
+    --primary-background: #ECDFCC;
+    --primary-text: #697565;
+}
+
+header#masthead {
+    background: var(--primary-head);
+}
+
+#masthead .site-title a,
+#masthead .storefront-primary-navigation .menu li a{
+    color: var(--off-white) !important;
+    font-weight: 600;
+}
+
+#masthead .site-title a:hover,
+#masthead .storefront-primary-navigation .menu li a:hover{
+    color: var(--primary-text) !important;
+}
+
+
+/*Form Styles*/
+.page-template input {
+    padding: 6px 12px;
+    background: var(--off-white);
+    color: var(--primary-text);
+    font-weight: 400;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+/*Table Styles*/
+#cities-table thead th{
+    background: var(--primary-background);
+    color: var(--primary-text);
+}
+#cities-table tbody tr td{
+    background: var(--off-white);
+    color: var(--primary-text);
+}
